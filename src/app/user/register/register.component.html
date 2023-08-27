@@ -1,0 +1,67 @@
+<div style="width: 60rem; height: 50rem; margin: auto;   border-radius: 5%; box-shadow:  5px 5px 5px 5px #888888;  ">
+
+    <h1
+        style="text-align: center; font-weight:bolder;font-size: 5rem; padding-top: 0.3rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        REGISTER</h1>
+    <form [formGroup]="regForm" (ngSubmit)="onSubmit() " style="padding: 20px;">
+
+
+        <div class="form-group" style="margin-top: 0.5rem;">
+            <h5>First Name</h5>
+            <input type="text" class="form-control" formControlName="fname">
+            <div style="font-size:1rem;" role="alert" *ngIf="fnamectrl.invalid && fnamectrl.touched">
+                <span *ngIf="fnamectrl.errors?.['required']">*First name is Required</span>
+                <span *ngIf="fnamectrl.errors?.['forbidden']">{{fnamectrl.errors?.['forbidden']}}</span>
+
+
+            </div>
+        </div>
+        <div class="form-group">
+            <h5>Last Name</h5>
+            <input type="text" class="form-control" formControlName="lname">
+        </div>
+        <div class="form-group">
+            <h5>Email address</h5>
+            <input type="email" class="form-control" formControlName="email">
+
+            <div style="font-size:1rem;" role="alert" *ngIf="emailctrl.invalid && emailctrl.touched">
+                <span *ngIf="emailctrl.errors?.['required']==true">*Email is Required</span>
+                <span *ngIf="emailctrl.errors?.['email']==true">*Invalid email address</span>
+
+
+            </div>
+
+
+        </div>
+        <div class="form-group">
+            <h5>Password</h5>
+            <input type="password" class="form-control" formControlName="password">
+
+
+            <div style="font-size:1rem;" role="alert" *ngIf="passctrl.invalid && passctrl.touched">
+
+
+                <span *ngIf="passctrl.errors?.['required']==true">*Password is Required</span>
+                <span *ngIf="passctrl.errors?.['minlength']==true">*Enter atleast 8 characters</span>
+
+
+            </div>
+
+        </div>
+        <div class="form-group">
+            <h5>Confirm Password</h5>
+            <input type="password" class="form-control" formControlName="cpassword">
+            <div style="font-size:1rem;" role="alert" *ngIf="cpassctrl.invalid && cpassctrl.touched">
+                <span>*Confirm password is required</span>
+            </div>
+
+        </div>
+        <br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <div style="margin-left: 35rem; ">
+            <h6>Already have an account ? <a routerLink='/users' style="text-decoration: none;">Sign in> </a></h6>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,469 @@
+{
+  "cart": [
+    {
+      "pid": 2,
+      "name": "Samsung M53 5g",
+      "price": 25000,
+      "imageUrl": "https://m.media-amazon.com/images/I/81yL2dXKTHL._SX679_.jpg",
+      "id": 1
+    },
+    {
+      "pid": 7,
+      "name": "Apple iPhone 14 Pro Max",
+      "price": 145000,
+      "imageUrl": "https://m.media-amazon.com/images/I/61nzPMNY8zL._SX679_.jpg",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "fname": "Rahul",
+      "lname": "Vashisth",
+      "email": "rvashisthv@gmail.com",
+      "password": "12345678",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "brand": "Samsung",
+      "category": "phones",
+      "name": "Samsung A52s 5g",
+      "price": 30000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/91WFF6Rsn0L._SX679_.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "category": "phones",
+      "name": "Samsung M53 5g",
+      "price": 25000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/81yL2dXKTHL._SX679_.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Samsung",
+      "category": "phones",
+      "name": "Samsung Galaxy M14 ",
+      "price": 9699,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/91HRACirFrL._SX679_.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Samsung",
+      "category": "phones",
+      "name": "Samsung Galaxy S23 5G ",
+      "price": 64000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61OvxXhQgZL._SX679_.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Apple",
+      "category": "phones",
+      "name": "Apple iPhone 14",
+      "price": 74000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Apple",
+      "category": "phones",
+      "name": "Apple iPhone 14 Plus",
+      "price": 79000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61YSNhAb00L._SX679_.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "category": "phones",
+      "name": "Apple iPhone 14 Pro Max",
+      "price": 145000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61nzPMNY8zL._SX679_.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Apple",
+      "category": "phones",
+      "name": "Apple iPhone 13 Mini",
+      "price": 44000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71X6mnUDSzL._SX679_.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Redmi",
+      "category": "phones",
+      "name": "Redmi Note 11 (Space Black)",
+      "price": 15000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71yTvU9VgdL._SX679_.jpg"
+    },
+    {
+      "id": 10,
+      "brand": "Redmi",
+      "category": "phones",
+      "name": "Xiaomi Mi 11 Lite (Vinyl Black)",
+      "price": 28000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71XmlboxNZL._SX679_.jpg"
+    },
+    {
+      "id": 11,
+      "brand": "Redmi",
+      "category": "phones",
+      "name": "Redmi 11 Prime 5G ",
+      "price": 14000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/81lAth+jv+L._SX679_.jpg"
+    },
+    {
+      "id": 12,
+      "brand": "Redmi",
+      "category": "phones",
+      "name": "Redmi A2 ",
+      "price": 9000,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/81RR0TAz+5L._SX679_.jpg"
+    },
+    {
+      "id": 13,
+      "brand": "OnePlus",
+      "category": "phones",
+      "name": "OnePlus 11 5G",
+      "price": 56999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/613SAOPmLeL._SX569_.jpg"
+    },
+    {
+      "id": 14,
+      "brand": "OnePlus",
+      "category": "phones",
+      "name": "OnePlus Nord CE 3 Lite 5G",
+      "price": 19999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61LB+d0vheL._SX569_.jpg"
+    },
+    {
+      "id": 15,
+      "brand": "OnePlus",
+      "category": "phones",
+      "name": "OnePlus 10R 5G",
+      "price": 34999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71BoiXkrEmL._SX569_.jpg"
+    },
+    {
+      "id": 16,
+      "brand": "OnePlus",
+      "category": "phones",
+      "name": "OnePlus 11R 5G",
+      "price": 49999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71qjUzUt+ML._SX569_.jpg"
+    },
+    {
+      "id": 17,
+      "brand": "Boat",
+      "category": "earphones",
+      "name": "boAt Airdopes 181",
+      "price": 2999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51bis9cifqL._SX522_.jpg"
+    },
+    {
+      "id": 18,
+      "brand": "Boat",
+      "category": "earphones",
+      "name": "boAt Airdopes 413ANC True",
+      "price": 4999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61w6YY-5f5L._SX522_.jpg"
+    },
+    {
+      "id": 19,
+      "brand": "Boat",
+      "category": "earphones",
+      "name": "boAt Airdopes 441 Pro ",
+      "price": 3999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51FlB-lg2WL._SX522_.jpg"
+    },
+    {
+      "id": 20,
+      "brand": "Boat",
+      "category": "earphones",
+      "name": "boAt Airdopes 393 ANC",
+      "price": 2599,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51I-mOYgKDL._SY355_.jpg"
+    },
+    {
+      "id": 21,
+      "brand": "Realme",
+      "category": "earphones",
+      "name": "realme Buds Air 3 Neo ",
+      "price": 2999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61wnFKjF1EL._SX679_.jpg"
+    },
+    {
+      "id": 22,
+      "brand": "Realme",
+      "category": "earphones",
+      "name": "realme Buds Air 3 ",
+      "price": 4999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51DclWv+E3L._SX569_.jpg"
+    },
+    {
+      "id": 23,
+      "brand": "Realme",
+      "category": "earphones",
+      "name": "realme Buds Air 3S ",
+      "price": 2499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61R-dJO92TL._SX679_.jpg"
+    },
+    {
+      "id": 24,
+      "brand": "Realme",
+      "category": "earphones",
+      "name": "realme TechLife Buds T100 ",
+      "price": 1499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61aasAbKvvL._SX679_.jpg"
+    },
+    {
+      "id": 25,
+      "brand": "JBL",
+      "category": "earphones",
+      "name": " JBL Wave 200 ",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Y8jzQuHGL._SX522_.jpg"
+    },
+    {
+      "id": 26,
+      "brand": "JBL",
+      "category": "earphones",
+      "name": " JBL Tune 230NC TWS ",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61-PaxeYoLL._SX522_.jpg"
+    },
+    {
+      "id": 27,
+      "brand": "JBL",
+      "category": "earphones",
+      "name": " JBL Wave Buds  ",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/51i6HkbGcTL._SX522_.jpg"
+    },
+    {
+      "id": 28,
+      "brand": "JBL",
+      "category": "earphones",
+      "name": " JBL Tune 510BT ",
+      "price": 2499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61kFL7ywsZS._SX522_.jpg"
+    },
+    {
+      "id": 29,
+      "brand": "boat",
+      "category": "watch",
+      "name": "boAt Wave Leap Call with 1.83",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/619zCwYM0KL._SX522_.jpg"
+    },
+    {
+      "id": 30,
+      "brand": "boat",
+      "category": "watch",
+      "name": "boAt Ultima Call Max",
+      "price": 2499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61xWEQ4ZTFL._SX679_.jpg"
+    },
+    {
+      "id": 31,
+      "brand": "boat",
+      "category": "watch",
+      "name": "boAt WaveCall with 1.69",
+      "price": 2599,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61uKfLv48sL._SX522_.jpg"
+    },
+    {
+      "id": 32,
+      "brand": "boat",
+      "category": "watch",
+      "name": "boAt Xtend with 1.83",
+      "price": 5499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ZuL8CUigL._SX679_.jpg"
+    },
+    {
+      "id": 33,
+      "brand": "Fire-Boltt",
+      "category": "watch",
+      "name": "Fire-Boltt Visionary 1.78",
+      "price": 5499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ze3rrxvIL._SX679_.jpg"
+    },
+    {
+      "id": 34,
+      "brand": "Fire-Boltt",
+      "category": "watch",
+      "name": "Fire-Boltt Gladiator 1.96",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71IqWwSIxwL._SX522_.jpg"
+    },
+    {
+      "id": 35,
+      "brand": "Fire-Boltt",
+      "category": "watch",
+      "name": "Fire-Boltt Ninja Call Pro Plus",
+      "price": 2999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61CMXdMg0XL._SX522_.jpg"
+    },
+    {
+      "id": 36,
+      "brand": "Fire-Boltt",
+      "category": "watch",
+      "name": "Fire-Boltt Ninja Call Pro Plus",
+      "price": 4499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61S9aVnRZDL._SX522_.jpg"
+    },
+    {
+      "id": 37,
+      "brand": "Noise",
+      "category": "watch",
+      "name": "Noise ColorFit Ultra 3 ",
+      "price": 3499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/71nzWfUAt+L._SX522_.jpg"
+    },
+    {
+      "id": 38,
+      "brand": "Noise",
+      "category": "watch",
+      "name": "Fire-Boltt Ninja Call Pro Plus",
+      "price": 4499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61z8jIQSFnL._SX679_.jpg"
+    },
+    {
+      "id": 39,
+      "brand": "Noise",
+      "category": "watch",
+      "name": "Noise Vivid Call",
+      "price": 3999,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ImYWJbw9L._SX522_.jpg"
+    },
+    {
+      "id": 40,
+      "brand": "Noise",
+      "category": "watch",
+      "name": "Noise Twist",
+      "price": 4499,
+      "description1": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description2": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "description3": "5G Ready powered by Qualcomm Snapdragon 865 Octa-Core processor, 8GB RAM, 128GB",
+      "imageUrl": "https://m.media-amazon.com/images/I/61TapeOXotL._SX679_.jpg"
+    }
+  ]
+}

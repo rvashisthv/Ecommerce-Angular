@@ -1,0 +1,19 @@
+<div class="row">
+    <ng-container *ngIf="productsData$ | async as products ">
+        <div class="col" *ngFor="let prod of products">
+
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                    <img src="{{prod.imageUrl}}" [routerLink]="['/products',prod.id]" style="cursor: pointer;" alt="">
+                    <h5 class="card-title" style="text-align: center ;cursor: pointer;"
+                        [routerLink]="['/products',prod.id]">{{ prod.name
+                        }}</h5>
+                    <h5 style="text-align: center;">{{ prod.price|currency:"INR" }} </h5>
+                    <button style="width: 28rem;" class="btn btn-outline-secondary" (click)="addtocart(prod)">Add to
+                        Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </ng-container>
+</div>

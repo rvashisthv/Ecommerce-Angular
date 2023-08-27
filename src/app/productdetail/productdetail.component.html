@@ -1,0 +1,42 @@
+<div>
+    <div style="padding-top: 6 rem; display: flex;">
+        <div>
+            <img style="width: 56 rem; height: 56rem; border: 0.2rem solid black;" src="{{product.imageUrl}}" alt="">
+
+            <div style="width: 56rem; height: 56rem;margin:2rem;margin-left: 0rem;">
+                <button class="btn btn-secondary" style=" width: 25rem; height: 4rem; margin: auto">ADD TO
+                    CART</button><button class="btn btn-secondary"
+                    style=" width: 25rem; height: 4rem;margin: auto; ">BUY NOW</button>
+            </div>
+
+
+
+        </div>
+
+        <ul>
+            <li style="padding-top: 5 rem ; ">
+                <h1 style="font-size: 5rem;">{{product.name}}</h1>
+            </li>
+            <li>
+                <h1>{{product.price|currency:"INR"}}</h1>
+            </li>
+            <ul style="font-size: 2rem; ">
+                <li>{{product.description1}}</li>
+                <li>{{product.description2}}</li>
+                <li>{{product.description3}}</li>
+            </ul>
+            <br>
+
+
+
+        </ul>
+
+
+    </div>
+
+
+
+
+
+
+</div>
